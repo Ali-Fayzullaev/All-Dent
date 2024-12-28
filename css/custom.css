@@ -35,7 +35,7 @@ body {
 
 .nav-pills .nav-link {
   color: #ffffff; /* Цвет текста */
-  background-color: #ACE0E5; /* Цвет фона */
+  background-color: #59b4bc; /* Цвет фона */
   border-radius: 5px; /* Радиус углов */
   transition: background-color 0.3s, color 0.3s; /* Анимация */
 }
@@ -43,13 +43,13 @@ body {
 /* Цвет при наведении */
 .nav-pills .nav-link:hover {
   color: #ffffff; /* Цвет текста при наведении */
-  background-color: #9ed0fe; /* Цвет фона при наведении */
+  background-color: #ACE0E5; /* Цвет фона при наведении */
 }
 
 /* Цвет для активной ссылки */
 .nav-pills .nav-link.active {
   color: #ffffff; /* Цвет текста для активной ссылки */
-  background-color: #9ed0fe; /* Цвет фона для активной ссылки */
+  background-color: #ACE0E5; /* Цвет фона для активной ссылки */
 }
 
 /* Убрать отступы, если требуется */
