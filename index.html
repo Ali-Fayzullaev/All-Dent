@@ -23,7 +23,7 @@
   <body class="m-0 p-0 overflow-x-hidden">
 
     <div class="container-fluid m-0 p-0 sticky-top">
-      <nav id="navbar-nav" class="navbar bg-main  px-3">
+      <!-- <nav id="navbar-nav" class="navbar bg-main  px-3">
         <a class="navbar-brand" href="./index.html">
           <img
             src="./img/profil.jpg"
@@ -65,7 +65,84 @@
         </li>
         </ul>
           
-      </nav>
+      </nav> -->
+      <nav id="navbar-nav" class="navbar bg-main px-3">
+        <a class="navbar-brand" href="./index.html">
+            <img
+                src="./img/profil.jpg"
+                alt="Bootstrap"
+                class="rounded-circle"
+                width="40"
+                height="34"
+            />
+        </a>
+        <span class="m-0 fs-4 d-none d-md-block text-white">
+            Стоматология в Астане
+        </span>
+    
+        <!-- Offcanvas Toggle Button -->
+        <button
+            class="navbar-toggler d-sm-none"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Desktop Navigation -->
+        <ul class="nav nav-pills d-none d-sm-block">
+            <li class="nav-item p-0 m-0">
+                <a class="nav-link" href="#scrollspyHeading1">Услуги</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#doctors">Врачи</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#reviews">Отзывы</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contacts">Контакты</a>
+            </li>
+        </ul>
+    
+        <!-- Offcanvas Menu -->
+        <div
+            class="offcanvas offcanvas-start bg-main"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+        >
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">Меню</h5>
+                <button
+                    type="button"
+                    class="btn-close btn-close-white"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                ></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#scrollspyHeading1">Услуги</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#doctors">Врачи</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#reviews">Отзывы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contacts">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
 
       
     </div>
